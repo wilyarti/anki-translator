@@ -4,13 +4,11 @@ import java.io.FileOutputStream
 
 
 fun main(args: Array<String>) {
-    translateWord("하다", "output.mp3")
-    /*
-    println(args[0])
+    
     fun readFileLineByLineUsingForEachLine(fileName: String)
             = File(fileName).forEachLine { process(it) }
     readFileLineByLineUsingForEachLine(args[0])
-*/
+    
     listvoices()
 }
 fun process(string: String) {
